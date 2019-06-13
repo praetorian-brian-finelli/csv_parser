@@ -1,7 +1,10 @@
 # csv_parser
 parse nessus CSVs for the purpose of formatting for reporting templates
+
 the script will also suggest VKB templates to use that are mapped to certain nessus findings
+
 the script writes to files csv_output and versions_output
+
 
 to run:
 ```

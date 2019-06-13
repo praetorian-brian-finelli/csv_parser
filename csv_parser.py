@@ -72,7 +72,7 @@ if "-versions" in sys.argv:
     out.write("% BeginTable(targets) %\ncolumns: 3\nhosts_with_header:\n")
     for value in vuln_column:
         #if any(type in value for type in software):
-        if ("<" in value):
+        if ("< " in value):
             f1 = f.loc[f['Name'] == value]
             keep_col = ['bullet', 'Host', 'Port_combined']
             f1 = f1[keep_col]

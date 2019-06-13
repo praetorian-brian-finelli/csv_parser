@@ -1,6 +1,7 @@
 # csv_parser
 parse nessus CSVs for the purpose of formatting for reporting templates
-
+the script will also suggest VKB templates to use that are mapped to certain nessus findings
+the script writes to files csv_output and versions_output
 
 to run:
 ```
@@ -14,8 +15,6 @@ to run:
   -print will print all vulnerability titles from the nessus file to the screen
   -help prints this message
 ```
-
-writes to files csv_output and versions_output
 
 
 csv_output takes the form:

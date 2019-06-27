@@ -35,7 +35,8 @@ findings_dict = {"SSL Weak Cipher Suites Supported": "weak_ssl_ciphers_supported
         "Terminal Services Encryption Level is Medium or Low": "terminal_services_encryption_level_medium_low.md",
         "Terminal Services Encryption Level is not FIPS-140 Compliant": "terminal_services_encryption_level_medium_low.md",
         "Web Server Directory Traversal Arbitrary File Access": "path_traversal.md",
-        "MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)": "missing_ms17_010_security_patch.md"
+        "MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)": "missing_ms17_010_security_patch.md",
+        "Apache Tomcat Default Files": "default_documents.md"
         }
 
 if "-help" in sys.argv or "-h" in sys.argv or len(sys.argv) < 2:
